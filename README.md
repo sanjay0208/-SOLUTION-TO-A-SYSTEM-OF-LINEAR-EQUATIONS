@@ -14,8 +14,21 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
+```python
+#Program to find the eigen values and eigen vectors.
+#Developed by: SANJAY M
+#RegisterNumber: 212222110038
 
+import numpy as np
+A = np.array([[1, -3],
+              [3,  1]])
+B = np.array([0, 10])
+solution = np.linalg.solve(A, B)
+print(solution)
+```
 ## Output:
+![Screenshot 2025-04-26 103641](https://github.com/user-attachments/assets/932adcc3-d83c-4832-bb77-9795a8f702c8)
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
